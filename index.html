@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Myanmar Traditional Foods</title>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--  BS CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- BS JS -->
+    <script type="text/javascript" src="Jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="images/logo.jpeg">
+    <style type="text/css">
+        
+         .img-fluid{
+            transition:  0.9s;
+        }
+        .img-fluid:hover{
+            cursor: pointer;
+            transition: 1s;
+            transform: scale(1.2);
+             box-shadow: 5px 5px  10px gray;
+             border-radius: 30%;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           /* $("img").mouseenter(function(){
+                $(this).addClass('big');
+            })
+             $("img").mouseleave(function(){
+                $(this).removeClass('big');
+            })*/
+             $('.btn').click(function(){
+            $('body,html').animate({
+            scrollTop:$('#'+$(this).data('value')).offset().top
+        },1000);
+      })
+        })
+    </script>
+</head>
+<body>
+    <!-- Nav -->
+<nav class="navbar navbar-light bg-light navbar-expand-sm shadow-sm sticky-top">
+    <a href="project.html" class="navbar-brand">
+        <img src="images/logo.jpeg" style="width:80px;height:80px;" class="img-fluid nav-link">
+        <a href="index.html" class="navbar-brand" id="tt">Myanmar Traditional Foods</a>
+    </a>
+    <button class="navbar-toggler" data-target="#mynav" data-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+    </button> 
+
+    <div class="collapse navbar-collapse" id="mynav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="myanmar.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup ="true" aria-expanded="false">Catagories</a>
+                <div class="dropdown-menu bg-light">
+                    <a href="eat.html" class="dropdown-item">Foods</a>
+                    <a href="drink.html" class="dropdown-item">Drinks</a>
+                </div>
+            </li>
+             <li class="nav-item">
+                <a href="About.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+             <li class="nav-item">
+                <a href="contactus.html" class="nav-link">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section>
+<div class="container">
+    <div class="card bg-dark text-white">
+        <div class="carousel slide" data-ride ="carousel" id="mycarousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                      <img src="images/head.jpg" class="card-img img-fluid w-100" alt="This is images">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/head1.jpg" class="card-img img-fluid w-100" alt="This is images">
+                    </div>
+                     <div class="carousel-item">
+                        <img src="images/head2.jpg" class="card-img img-fluid w-100" alt="This is images">
+                    </div>
+                </div>
+                <a href="#mycarousel" class="carousel-control-prev" data-slide='prev'>
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control-next" data-slide='next'>
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        <div class="card-img-overlay text-center py-5 text-white">
+            <h1 class="card-title">Welcome from Myanmar Traditional foods</h1>
+            <p class="card-text">
+                <blockquote class="blockquote">
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                </blockquote>
+            </p>
+           <button class="btn btn-outline-light">See More</button>
+        </div>
+    </div>
+</div>
+</section>
+<!--  First Section -->
+<div class="container py-3" id="firstSection">
+  <h3 class="text-center">Myanmar Traditional Food World!</h3>
+    <hr class="bg-dark">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <img src="images/home.png" class="img-fluid img-thumbnail">
+        </div>
+         <div class="col-md-6 col-sm-12 ">
+            <blockquote class="blockquote-reverse" style="opacity: 0.7">
+               For all tourists, Myanmar food is always one of the most wonderful things to taste and experience. Myanmar is now an opening country to the outside world, thus, tourists can possibly discover a cuisine that is largely hidden from the world for the last 50 years.
+            </blockquote>
+        </div>
+    </div>
+    <hr class="bg-dark">
+</div>
+
+<!-- product -->
+<div class="container py-2 bg-light"  id="product">
+    <marquee behavior="alternate"><h3>Myanmar Foods</h3></marquee>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 py-2">
+                <div class="card shadow sub-card">
+                    <div class="card-body">
+                        <img src="images/i1.jpeg" class="img-fluid">
+                        <h5 class="text-center py-2">Mohinga</h5>
+                        <p>Mohinga is the traditional breakfast in Myanmar</p>
+                    </div>
+                        <div class="card-footer">
+                            <a href="#mymodal" class="btn btn-primary mx-4 px-5" data-toggle="modal"> ShowDetail</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 py-2">
+                <div class="card shadow sub-card">
+                    <div class="card-body">
+                        
+                        <img src="images/i2.jpeg" class="img-fluid">
+                        <h5 class="text-center">Laphet</h5>
+                        <p>The pickled tea leaf that is called laphet</p>
+                    </div>
+                        <div class="card-footer">
+                            <a href="#mymodal1" class="btn btn-primary mx-4 px-5" data-toggle="modal"> ShowDetail</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 py-2">
+                <div class="card shadow sub-card">
+                    <div class="card-body">
+                        
+                        <img src="images/i3.jpeg" class="img-fluid">
+                        <h5 class="text-center">Nan Gyi Thoke</h5>
+                        <p>Nan Gyi Thoke often called the spaghetti</p>
+                    </div>
+                        <div class="card-footer">
+                            <a href="#mymodal2" class="btn btn-primary mx-4 px-5" data-toggle="modal">ShowDetail</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 py-2">
+                <div class="card shadow sub-card">
+                    <div class="card-body">
+                        
+                        <img src="images/i4.jpeg" class="img-fluid">
+                        <h5 class="text-center">Kaut Nyin Paung</h5>
+                        <p>Kaut Nyin Paung is mostly served for the breakfast</p>
+                    </div>
+                        <div class="card-footer">
+                            <a href="#mymodal3" class="btn btn-primary mx-4 px-5" data-toggle="modal">ShowDetail</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 py-5">
+                <div class="card shadow sub-card">
+                    <div class="card-body">
+                        
+                        <img src="images/i7.jpg" class="img-fluid">
+                        <h5 class="text-center">Mont Pyar Thalet</h5>
+                        <p>Pyar Thalet means the honeycomb</p>
+                    </div>
+                        <div class="card-footer">
+                            <a href="#mymodal4" class="btn btn-primary mx-4 px-5" data-toggle="modal"> ShowDetail</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 py-5">
+                <div class="card shadow sub-card">
+                    <div class="card-body">
+                        
+                        <img src="images/i5.jpeg" class="img-fluid">
+                        <h5 class="text-center">Mote Lone Yay Paw</h5>
+                        <p>Mote Lone Yay Paw is a traditional sweet rice</p>
+                    </div>
+                        <div class="card-footer">
+                            <a href="#mymodal5" class="btn btn-primary mx-4 px-5" data-toggle="modal"> ShowDetail</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 py-5">
+                <div class="card shadow sub-card">
+                    <div class="card-body">
+                        
+                        <img src="images/i8.jpeg" class="img-fluid">
+                        <h5 class="text-center">Mont Lin Mayar</h5>
+                        <p>It means the couple or husband and wife snack</p>
+                    </div>
+                        <div class="card-footer">
+                            <a href="#mymodal6" class="btn btn-primary mx-4 px-5" data-toggle="modal"> ShowDetail</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 py-5">
+                <div class="card shadow sub-card">
+                    <div class="card-body">
+                        
+                        <img src="images/i6.jpeg" class="img-fluid">
+                        <h5 class="text-center">Bein Mont</h5>
+                        <p>It is the Myanmar Style pancake which is made with rice flour</p>
+                    </div>
+                        <div class="card-footer">
+                            <a href="#mymodal7" class="btn btn-primary mx-4 px-5" data-toggle="modal"> ShowDetail</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- footer -->
+    <div class="container-fluid">
+        <footer class="bg-dark">
+             <button class="btn btn-outline-secondary d-block mx-auto btn-md" data-value="Gallery">
+        </button>
+        <div class="row">
+        <div class="col">
+            <p class="text-center py-1 text-white">@2019 Our Porject Team (Ranger)</p>
+        </div>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+<div class="modal fade " id="mymodal">
+    <div class="modal-dialog text-primary">
+        <div class="modal-content">
+            <div class="modal-header">
+                Mohinga
+                <button class="close btn-danger" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                Mohinga is the traditional breakfast in Myanmar and it is quite normal to go out for this meal. So, each morning, Mohinga stalls appear and people tend to have their favorite vendor or café. The Mohinga that cooked in an 
+            </div>
+            <div class="modal-footer">
+                The customer can order and enjoy as his preferences. Optional toppings include sliced hard-boiled eggs and fried onions, gourd fritters
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade " id="mymodal2">
+    <div class="modal-dialog text-primary">
+        <div class="modal-content">
+            <div class="modal-header">
+                Nan Gyi Thoke 
+                <button class="close btn-danger" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                Nan Gyi Thoke often called the spaghetti of Myanmar is another popular breakfast food. However it is available from morning till afternoon as some people eats regardless of time.
+            </div>
+            <div class="modal-footer">
+                 dish is is prepared by mixing curried chicken and the rice noodle adding onion shreds, scallions and par-boiled bean sprouts as individual’s preference. It is very delicious meal.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade " id="mymodal1">
+    <div class="modal-dialog text-primary">
+        <div class="modal-content">
+            <div class="modal-header">
+                Lapha
+                <button class="close btn-danger" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                The pickled tea leaf that is called laphet, is eaten at all time of day, perhaps as the end of a meal or as a snack. According to the Myanmar’s tradition, the lapetthoke (pickled tea leaves salad) will be served when visitors arrive.
+            </div>
+            <div class="modal-footer">
+                A drink of local green tea and the laphettoke filled with laphet, crunchy dried peas and beans, peanuts, garlic, fried garlic, toasted sesame and green chilli will be served.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade " id="mymodal3">
+    <div class="modal-dialog text-primary">
+        <div class="modal-content">
+            <div class="modal-header">
+                Kaut Nyin Paung
+                <button class="close btn-danger" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                In Myanmar, Kaut Nyin Paung is mostly served for the breakfast or sometime at the tea time in the afternoon. It is usually steamed with special steamed cookies in Shan State, while the Myanmar people seem to cook it just like the normal rice.
+            </div>
+            <div class="modal-footer">
+                Steamed black and white glutinous rice has firmer texture and of course more delicious, while the cooked one is soft. It is usually prepared the black and white mixture of sticky rice with sesame powder, salt and coconut shreds.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade " id="mymodal4">
+    <div class="modal-dialog text-primary">
+        <div class="modal-content">
+            <div class="modal-header">
+            Mont Pyar Thalet
+                <button class="close btn-danger" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                It means the couple or husband and wife snack. It is made with rice flour batter fried in the hemispherical shape dimpled pan and joins 2 pieces.
+            </div>
+            <div class="modal-footer mr-auto">
+                Joining 2 pieces, this snack figure as the husband and wife.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade " id="mymodal5">
+    <div class="modal-dialog text-primary">
+        <div class="modal-content">
+            <div class="modal-header">
+                Mote Lone Yay Paw
+                <button class="close btn-danger" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                Mote Lone Yay Paw is a traditional sweet rice balls. In Myanmar language, it means the snack that floats on water. It is usually stuffed with palm sugar.
+            </div>
+            <div class="modal-footer">
+                The food is often served during the celebration of Myanmar New Year Festival
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade " id="mymodal6">
+    <div class="modal-dialog text-primary">
+        <div class="modal-content">
+            <div class="modal-header">
+                Mont Lin Mayar 
+                <button class="close btn-danger" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                It means the couple or husband and wife snack. It is made with rice flour batter fried in the hemispherical shape dimpled pan and joins 2 pieces
+            </div>
+            <div class="modal-footer mr-auto">
+                This snack figure as the husband and wife.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade " id="mymodal7">
+    <div class="modal-dialog text-primary">
+        <div class="modal-content">
+            <div class="modal-header">
+                Bein Mont
+                <button class="close btn-danger" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                It is the Myanmar Style pancake which is made with rice flour, palm sugar, coconut chips and peanuts, garnished with poppy seeds.  
+            </div>
+            <div class="modal-footer">
+                It is fluffy in the middle and slightly crispy on the sides. People love to have it with an extra egg atop or sprinkled with nuts or both.
+            </div>
+        </div>
+    </div>
+</div>

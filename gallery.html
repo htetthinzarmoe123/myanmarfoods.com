@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Myanmar Traditional Foods</title>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css" rel="">
+    <link rel="stylesheet" type="text/css" href="Cookie">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--  BS CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="font"> -->
+    <!-- BS JS -->
+    <script type="text/javascript" src="Jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="images/logo.jpeg">
+    <style type="text/css">
+        
+         .img-fluid{
+            transition:  0.9s;
+        }
+        .img-fluid:hover{
+            cursor: pointer;
+            transition: 1s;
+            transform: scale(1.2);
+             box-shadow: 5px 5px  10px gray;
+             border-radius: 30%;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           /* $("img").mouseenter(function(){
+                $(this).addClass('big');
+            })
+             $("img").mouseleave(function(){
+                $(this).removeClass('big');
+            })*/
+             $('.btn').click(function(){
+            $('body,html').animate({
+            scrollTop:$('#'+$(this).data('value')).offset().top
+        },1000);
+      })
+        })
+    </script>
+</head>
+<body>
+	<!-- Nav -->
+<nav class="navbar navbar-light bg-light navbar-expand-sm shadow-sm sticky-top">
+    <a href="project.html" class="navbar-brand">
+        <img src="images/logo.jpeg" style="width:80px;height:80px;" class="img-fluid nav-link">
+        <a href="#" class="navbar-brand" id="tt">Myanmar Traditional Foods</a>
+    </a>
+    <button class="navbar-toggler" data-target="#mynav" data-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+    </button> 
+
+    <div class="collapse navbar-collapse" id="mynav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup ="true" aria-expanded="false">Catagories</a>
+                <div class="dropdown-menu bg-light">
+                    <a href="eat.html" class="dropdown-item">Foods</a>
+                    <a href="drink.html" class="dropdown-item">Drinks</a>
+                </div>
+            </li>
+             <li class="nav-item">
+                <a href="About.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+             <li class="nav-item">
+                <a href="contactus.html" class="nav-link">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+	<section class="bg-light py-2" id="Gallery">
+		<div class="container bg-light">
+			<h1 class="text-center">Our Gallery</h1>
+			<marquee behavior="alternate"><h3>Traditional Food World!</h3></marquee>
+            <hr class="bg-secondary">
+
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<a href="#">
+                        <img src="images/k.jpg" class="img-fluid img-thumbnail">
+                    </a>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<a href="#">
+                        <img src="images/nangyi.jpg" class="img-fluid img-thumbnail">
+                    </a>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					 <a href="#">
+                        <img src="images/monh.jpg" class="img-fluid img-thumbnail">
+                    </a>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<a href="#">
+                        <img src="images/mhk.jpg" class="img-fluid img-thumbnail">
+                    </a>
+				</div>
+            </div>  
+			<div class="row py-3">
+				<div class="col-md-3 col-sm-6">
+					<a href="#">
+                    <img src="images/head2.jpg" class="img-fluid img-thumbnail">
+                    </a>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<a href="#">
+                    <img src="images/head.jpg" class="img-fluid img-thumbnail">
+                    </a>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<a href="#">
+                    <img src="images/head1.jpg" class="img-fluid img-thumbnail"> </a>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<a href="#">
+                       <img src="images/shanrice.jpg" class="img-fluid img-thumbnail"> 
+                    </a>
+				</div>
+			</div>
+
+            <div class="row py-3">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                    <img src="images/coffee.jpeg" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                    <img src="images/b.jpg" class="img-fluid img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                    <img src="images/laphet.jpg" class="img-fluid img-thumbnail"> </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                       <img src="images/m.jpg" class="img-fluid img-thumbnail"> 
+                    </a>
+                </div>
+            </div>
+    </div>
+</section>
+
+<!-- footer -->
+    <div class="container-fluid">
+        <footer class="bg-dark">
+             <button class="btn btn-outline-secondary d-block mx-auto btn-md" data-value="Gallery">
+            ^
+        </button>
+        <div class="row">
+        <div class="col">
+            <p class="text-center py-1 text-white">@2019 Our Porject Team (Ranger)</p>
+        </div>
+        </div>
+        </footer>
+    </div>
+</script>
+</body>
+</html>

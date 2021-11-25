@@ -1,0 +1,61 @@
+@font-face{
+	font-family: Cormorant_Garamond;
+	src:url("Cormorant_Garamond/CormorantGaramond-Regular");
+}
+@font-face{
+	font-family:Cookie;
+	src:url("Cookie/Cookie-Regular.ttf");
+}
+body{
+	font-family: Cormorant_Garamond;
+}
+#product h3{
+	font-family:Cookie;
+}
+#tt{
+	font-family:Cookie;
+}
+.container-fluid img{
+	height: 500px;
+	opacity: 0.5;
+}
+
+#firstSection h3{
+	font-family:Cookie;
+}
+
+/*Gallery*/
+div#i1:hover{
+	background-color: #8D6E63;
+}
+h6{
+	font-style:italic;
+	font-size: 50px;
+	padding-top: 20px;
+	color:#8D6E63;
+}
+.row h2{
+	margin:10px 0;
+	text-align:center;
+}
+#Gallery h3{
+font-family:Cookie;
+}
+/*#Gallery img{
+	 box-shadow: 2px 2px  5px gray;
+}*/
+#feedback img{
+	border-radius:10%;
+	width:100px;
+	height:100px;
+}
+#feedback p{
+	text-align: justify;
+}
+/*product*/
+#eat img{
+	border-radius: 20%;
+}
+#drinks img{
+	border-radius: 20%;
+}
